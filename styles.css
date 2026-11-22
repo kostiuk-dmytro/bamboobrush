@@ -693,6 +693,11 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
 .nav-dd__badge { font-size: .7rem; font-weight: 700; letter-spacing: .02em; }
 .nav-dd__badge--in { color: var(--green-500); }
 .nav-dd__badge--soon { color: #a97b18; }
+.nav-dd__badge--out { color: var(--muted); }
+.mnav-badge--out { background: rgba(127,127,127,.15); color: var(--muted); }
+.gwshop__badge--out { background: #6b6b6b; }
+.pdp__stock--out { color: var(--muted); }
+.gwshop__add:disabled, .product__add:disabled { opacity: .55; cursor: not-allowed; filter: grayscale(.6); }
 [data-theme="dark"] .nav-dd__badge--soon { color: var(--sand); }
 .nav-dd__sep { margin: 7px 10px 3px; padding-top: 9px; border-top: 1px solid var(--line); font-size: .66rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
 .mobile-nav__label { padding: 8px 0 2px 40px; font-size: .68rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }

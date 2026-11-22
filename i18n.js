@@ -15,6 +15,11 @@
 
       nav_product: "Produkt",
       dd_instock: "✓ Finns i lager",
+      dd_soldout: "Slutsåld",
+      mnav_soldout: "Slutsåld",
+      gws_soldout: "Slutsåld",
+      gws_soldout_btn: "Slutsåld",
+      pdp_soldout: "Slutsåld",
       dd_soon: "🔔 Kommer snart",
       nav_why: "Varför bambu",
       nav_env: "Miljö",
@@ -255,6 +260,11 @@
 
       nav_product: "Product",
       dd_instock: "✓ In stock",
+      dd_soldout: "Sold out",
+      mnav_soldout: "Sold out",
+      gws_soldout: "Sold out",
+      gws_soldout_btn: "Sold out",
+      pdp_soldout: "Sold out",
       dd_soon: "🔔 Coming soon",
       nav_why: "Why bamboo",
       nav_env: "Environment",

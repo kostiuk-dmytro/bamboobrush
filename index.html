@@ -28,7 +28,7 @@
 
   <!-- Pre-paint theme/language boot (synchronous on purpose — prevents a flash of wrong theme) -->
   <script src="boot.js"></script>
-  <link rel="stylesheet" href="styles.css?v=20261123c" />
+  <link rel="stylesheet" href="styles.css?v=20261123d" />
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" href="/assets/favicon-32.png" sizes="32x32" />
   <link rel="apple-touch-icon" href="/assets/favicon-180.png" />
@@ -135,7 +135,7 @@
           <div class="nav-dd__menu" role="menu">
             <a class="nav-dd__item" role="menuitem" href="produkter/bambutandborste-6-pack.html">
               <span class="nav-dd__thumb"><img src="assets/bambutandborste-6-pack.jpg" alt="" loading="lazy" decoding="async" /></span>
-              <span class="nav-dd__txt"><strong>Bambutandborste 6-pack, vildsvinshår</strong><span class="nav-dd__badge nav-dd__badge--in" data-i18n="dd_instock">✓ Finns i lager</span></span>
+              <span class="nav-dd__txt"><strong>Bambutandborste 6-pack, vildsvinshår</strong><span class="nav-dd__badge nav-dd__badge--out" data-i18n="dd_soldout">Slutsåld</span></span>
             </a>
             <a class="nav-dd__item" role="menuitem" href="produkter/tandborsthuvud-sonicare-bambu.html">
               <span class="nav-dd__thumb"><img src="assets/bambu-tandborsthuvud-eltandborste.jpg" alt="" loading="lazy" decoding="async" /></span>
@@ -175,7 +175,7 @@
     </div>
     <nav class="mobile-nav" id="mobileNav" aria-label="Mobilmeny">
       <a href="produkter/bambutandborste-6-pack.html" data-i18n="nav_product">Produkt</a>
-      <a class="mobile-nav__sub" href="produkter/bambutandborste-6-pack.html">Bambutandborste 6-pack, vildsvinshår <span class="mnav-badge">I lager</span></a>
+      <a class="mobile-nav__sub" href="produkter/bambutandborste-6-pack.html">Bambutandborste 6-pack, vildsvinshår <span class="mnav-badge mnav-badge--out" data-i18n="mnav_soldout">Slutsåld</span></a>
       <a class="mobile-nav__sub" href="produkter/tandborsthuvud-sonicare-bambu.html">Borsthuvud för Philips Sonicare <span class="mnav-badge">I lager</span></a>
       <a class="mobile-nav__sub" href="produkter/bambutandborste-4-pack-hasthar.html">Bambutandborste 4-pack, hästhår <span class="mnav-badge mnav-badge--soon">Snart</span></a>
       <a class="mobile-nav__sub" href="produkter/tandtrad-silke-bambu.html">Tandtråd i silke <span class="mnav-badge mnav-badge--soon">Snart</span></a>
@@ -283,7 +283,7 @@
         <div class="gwshop">
           <article class="gwshop__card">
             <a class="gwshop__media" href="produkter/bambutandborste-6-pack.html">
-              <span class="gwshop__badge" data-i18n="gws_instock">I lager</span>
+              <span class="gwshop__badge gwshop__badge--out" data-i18n="gws_soldout">Slutsåld</span>
               <picture>
                 <source srcset="assets/bambutandborste-6-pack.webp" type="image/webp" />
                 <img src="assets/bambutandborste-6-pack.jpg" width="900" height="675" loading="lazy" decoding="async" alt="Bambutandborste 6-pack med naturlig galtborst" />
@@ -296,7 +296,7 @@
                 <span class="gwshop__price">230 kr</span>
                 <span class="gwshop__deal" data-i18n="gws_tb6_deal">2 st: spara 40 kr</span>
               </div>
-              <button class="btn btn--primary btn--block gwshop__add" type="button"
+              <button class="btn btn--primary btn--block gwshop__add" type="button" disabled aria-disabled="true"
                       data-add-product
                       data-id="tb6" data-price="230"
                       data-img="/assets/bambutandborste-6-pack.jpg"
@@ -304,7 +304,7 @@
                       data-title="Bambutandborste 6-pack, vildsvinshår"
                       data-variant="Naturell bambu"
                       data-discount2="40" data-discount3="100"
-                      data-i18n="gws_add">Lägg i varukorg</button>
+                      data-i18n="gws_soldout_btn">Slutsåld</button>
               <a class="gwshop__more" href="produkter/bambutandborste-6-pack.html" data-i18n="gws_more">Läs mer →</a>
             </div>
           </article>
@@ -570,7 +570,7 @@
   <!-- Toast -->
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <script src="i18n.js?v=20261123"></script>
+  <script src="i18n.js?v=20261123d"></script>
   <script src="script.js"></script>
 </body>
 </html>
