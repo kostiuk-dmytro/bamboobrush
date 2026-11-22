@@ -129,6 +129,11 @@
       card4_p: "Torrt är galtborst styvt (3–6 GPa), men när man blöter ner den mjuknar den till ≤1 GPa – mjukare än nylon, som ligger kvar på 2–3 GPa även blött.",
 
       card_more: "Läs mer i bloggen →",
+      why_read: "Läs mer:",
+      why_l1: "Mikroplast i tandborstar",
+      why_l2: "Kompostera tandborsten",
+      why_l3: "Är bambutandborstar bra?",
+      why_l4: "Naturborst eller nylon?",
       imp_blog_label: "Fördjupa dig i bloggen",
       imp_blog1: "Hur farligt är mikroplast egentligen?",
       imp_blog2: "Så kan mikroplast påverka kroppen och cellerna",
@@ -364,6 +369,11 @@
       card4_p: "Dry, boar bristle is stiff (3–6 GPa), but once you wet it down it softens to ≤1 GPa – softer than nylon, which stays at 2–3 GPa even when wet.",
 
       card_more: "Read more on the blog →",
+      why_read: "Read more:",
+      why_l1: "Microplastics in toothbrushes",
+      why_l2: "Composting your toothbrush",
+      why_l3: "Are bamboo toothbrushes good?",
+      why_l4: "Natural bristle or nylon?",
       imp_blog_label: "Dig deeper on the blog",
       imp_blog1: "How dangerous are microplastics, really?",
       imp_blog2: "How microplastics can affect the body and its cells",

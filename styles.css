@@ -327,6 +327,10 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
 .why { padding: 84px 0; background: var(--white); }
 .why__more { display: inline-block; margin-top: 10px; font-weight: 600; color: var(--green-500); text-decoration: none; }
 .why__more:hover { text-decoration: underline; }
+.why .section-head { margin-bottom: 0; }
+.why__links { margin: 18px auto 0; max-width: 640px; font-size: 0.95rem; color: var(--muted, #9aa79a); line-height: 1.8; }
+.why__links a { color: var(--green-500); text-decoration: none; white-space: nowrap; }
+.why__links a:hover { text-decoration: underline; }
 .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
 .card {
   background: var(--cream); border: 1px solid var(--line); border-radius: var(--radius);
