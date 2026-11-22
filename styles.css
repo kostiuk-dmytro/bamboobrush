@@ -53,6 +53,7 @@
 /* ===== Tokens ===== */
 :root {
   --green-900: #1c3a25;
+  --green-950: #12281a;
   --green-700: #2f5d3a;
   --green-500: #3f8552;
   --green-100: #e6efe7;
@@ -78,6 +79,7 @@
 /* ===== Dark theme (default) ===== */
 [data-theme="dark"] {
   --green-900: #10201a;
+  --green-950: #0a130e;
   --green-700: #57a96e;
   --green-500: #79cf90;
   --green-100: #1d2c1e;
@@ -403,7 +405,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
 .compare .yes { color: var(--green-500); font-weight: 700; }
 
 /* ===== Greenwashing hook ===== */
-.greenwash { background: var(--green-900); color: #eef5ee; padding: 84px 0; }
+.greenwash { background: var(--green-950); color: #eef5ee; padding: 84px 0; border-top: 1px solid rgba(255, 255, 255, .08); border-bottom: 1px solid rgba(255, 255, 255, .08); }
 .greenwash__head { text-align: center; max-width: 680px; margin: 0 auto 44px; }
 .greenwash .eyebrow { color: var(--sand); }
 .greenwash__head h2 { font-size: clamp(2rem, 5vw, 3.2rem); color: #fff; margin-bottom: 22px; }
