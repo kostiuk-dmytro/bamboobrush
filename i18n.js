@@ -32,7 +32,7 @@
 
       hero_h1: 'Plastfri bambutandborste – ren munvård utan <span class="hl">mikroplaster</span>.',
       hero_lead: "En plastfri tandborste i bambu med naturborst – för dig som inte vill få i dig mikroplast vid varje borstning.",
-      hero_buy: "Köp 6-pack · 230 kr",
+      hero_buy: "Köp borsthuvuden · 179 kr",
       hero_more: "Läs mer ↓",
       hero_badge1: "🌍 0% plast",
       hero_badge2: "🌿 Trä + naturborst",
@@ -277,7 +277,7 @@
 
       hero_h1: 'Plastic-free bamboo toothbrush – clean oral care without <span class="hl">microplastics</span>.',
       hero_lead: "A plastic-free bamboo toothbrush with natural bristles – for you who'd rather not ingest microplastics with every brush.",
-      hero_buy: "Buy 6-pack · 230 kr",
+      hero_buy: "Buy brush heads · 179 kr",
       hero_more: "Learn more ↓",
       hero_badge1: "🌍 0% plastic",
       hero_badge2: "🌿 Wood + natural bristles",
